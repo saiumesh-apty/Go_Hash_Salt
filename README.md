@@ -1,7 +1,7 @@
 # Go_Hash_Salt
 Something 🤷‍♀️🤷‍♀️🤷‍♀️
 
-This repo basically helps us to create Random salt for each password and then hash them it generated salt.
+This repo basically helps us to create Random salt for each password and then hash it with generated salt.
 
 This is just experimental package, let's see if we can use it 🤞🏼🤞🏼
 

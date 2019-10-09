@@ -87,7 +87,7 @@ func main() {
 	fmt.Println(isPasswordEqual) // True
 
 	// wrong password
-	_, err = CompareHashWithPassword(hashedPassword, "SaltLenssgth", passwordSalt)
+	_, err = CompareHashWithPassword(hashedPassword, "SaltLength", "passwordSalt")
 	if err != nil {
 		log.Fatal(err.Error()) // wrong password error
 	}
