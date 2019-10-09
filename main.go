@@ -57,8 +57,6 @@ func CompareHashWithPassword(hash, password, salt string) (bool, error) {
 	switch passwordType {
 	case "AptyID":
 		calculatedKey = argon2.IDKey([]byte(password), []byte(salt), uint32(time), uint32(memory), uint8(threads), uint32(keyLen))
-	case "argon2i", "argon2":
-		calculatedKey = argon2.Key([]byte(password), []byte(salt), uint32(time), uint32(memory), uint8(threads), uint32(keyLen))
 	default:
 		return false, errors.New("Invalid Password Hash")
 	}
