@@ -18,6 +18,4 @@ https://stackoverflow.com/questions/23039458/equivalent-salt-and-hash-in-golang
  https://stackoverflow.com/questions/6832445/how-can-bcrypt-have-built-in-salts/6833165#6833165
 
 ## From Go Crypto repo
-https://stackoverflow.com/questions/23039458/equivalent-salt-and-hash-in-golang
- https://stackoverflow.com/questions/23259586/bcrypt-password-hashing-in-golang-compatible-with-node-js
- https://stackoverflow.com/questions/6832445/how-can-bcrypt-have-built-in-salts/6833165#6833165
+ https://github.com/golang/go/issues/18737
