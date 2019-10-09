@@ -35,8 +35,8 @@ func generateSalt(len int) (string, error) {
 }
 
 func generateSaltedHash(password, salt string) (string, error) {
-	crypto_key := argon2.IDKey([]byte(password), []byte(salt), Time, Memory, Threads, KeyLen)
-	encodedPassword := base64.StdEncoding.EncodeToString(crypto_key)
+	cryptoKey := argon2.IDKey([]byte(password), []byte(salt), Time, Memory, Threads, KeyLen)
+	encodedPassword := base64.StdEncoding.EncodeToString(cryptoKey)
 	hash := fmt.Sprintf("%s$%d$%d$%d$%d$%s$%s",
 		PasswordType, Time, Memory, Threads, KeyLen, salt, encodedPassword)
 	return hash, nil
