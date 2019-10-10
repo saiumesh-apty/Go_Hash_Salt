@@ -9,7 +9,7 @@ Here are some resources which helped me.
 
 ## Best practices
 https://auth0.com/blog/adding-salt-to-hashing-a-better-way-to-store-passwords/ \
-https://auth0.com/blog/hashing-in-action-understanding-bcrypt/
+https://auth0.com/blog/hashing-in-action-understanding-bcrypt/ \
 https://crackstation.net/hashing-security.htm
 
 ## Discussions
